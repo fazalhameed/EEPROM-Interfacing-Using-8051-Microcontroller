@@ -103,9 +103,6 @@ void save()					//save in EEPROM
 		lcd_write('F');
 		LCD_Command(0x87);
 		lcd_write('A');
-		
-		
-
 	}
 	else
 	aknowledge();
